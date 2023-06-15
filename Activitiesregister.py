@@ -5,16 +5,27 @@ import calendar
 changes_1 = date(2023, 6 , 11)
 uptade_changes_1 = "Criação do act register"
 print(uptade_changes_1)
+print(changes_1)
 
 
 changes_2 = date(2023, 6 , 12)
 uptade_changes_2 = "Implementação de calendarios"
 print(uptade_changes_2)
+print(changes_2)
 
 
 changes_3 = date(2023, 6 , 13)
 uptade_changes_3 = "Implementação do weekheader"
 print(uptade_changes_3)
+print(changes_3)
+
+
+changes_4 = date(2023, 6, 14)
+update_changes_4 = "Funçoes circadianas"
+print(update_changes_4)
+print(changes_4)
+
+
 
 
 class activitiesmade:
@@ -69,5 +80,22 @@ class Activityweekheader:
    print(calendar.weekheader(1))
 
 
+#Implementation of the Circadian Function at 15/06/2023#
 
+
+def currentlytime ():
+    print("today:", datetime.today())
+    print("now:", datetime.now())
+    print("utcnow:", datetime.utcnow())
+
+
+def naptime ():
+    print( "Sua hora de deitar e dormir é" ,22, 00, 00)
+
+def waketime ():
+    print( "Sua hora de acordar é" , 5, 00, 00)
+
+currentlytime()
+naptime()
+waketime()
 
